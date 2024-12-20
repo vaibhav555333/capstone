@@ -1,0 +1,29 @@
+.header{
+    height: 80px;
+    border-bottom: 1px solid black;
+    padding: 0px 48px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 16px 0px;
+    color: white;
+}
+.logo{
+    width: 159px;
+    height: 48px;
+    cursor: pointer;
+}
+.menu-btn{
+    font-size:28px;
+    margin: 16px;
+    line-height: 32px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.menu-btn:hover{
+    color: black;
+    border-bottom: 2px solid black;
+}
